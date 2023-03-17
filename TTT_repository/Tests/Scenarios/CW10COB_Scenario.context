@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="3733a884-8048-4e92-a5dc-22fee13c3d54" logLevel="LOG" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" useRepository="false">
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="3733a884-8048-4e92-a5dc-22fee13c3d54" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="CCEXPEDITER" jobInfoInterval="3" useRepository="false" ccrepository="SALESSUP.JAPAN.SC.REPOSIT" ccsystem="PIPELINE_DEMO" cctestid="CW10DEMO" ccprogramtype="TOTALTEST - TTTRUNNR" ccreset="false" ccshow="true">
   <ExtensionData>
     <Parameter key="unittest.loadlibraries">
-      <Value>SALESSUP.ISPW.DEMJ.UT1.LOAD</Value>
-      <Value>SALESSUP.ISPW.DEMJ.SI1.LOAD</Value>
-      <Value>SALESSUP.ISPW.DEMJ.PT.LOAD</Value>
-      <Value>SALESSUP.ISPW.DEMJ.HON.LOAD</Value>
-      <Value>CEE.SCEERUN</Value>
       <Value>SALESSUP.ISPW.DEMJ.UT1.LOAD</Value>
       <Value>SALESSUP.ISPW.DEMJ.SI1.LOAD</Value>
       <Value>SALESSUP.ISPW.DEMJ.PT.LOAD</Value>

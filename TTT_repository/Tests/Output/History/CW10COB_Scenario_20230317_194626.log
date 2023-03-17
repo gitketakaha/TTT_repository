@@ -1,0 +1,42 @@
+19:46:03.548 INFO      TOPAZ            ***************************************
+19:46:03.549 INFO      TOPAZ            ** Execution from Topaz with options **
+19:46:03.549 INFO      TOPAZ            ***************************************
+19:46:03.549 INFO      TOPAZ            Using repository: false
+19:46:03.549 INFO      TOPAZ            ***************************************
+19:46:03.549 INFO      Engine           Test Scenario execution started
+19:46:03.549 INFO      Engine           Using context settings:
+  Engine Version                : 20.11.2.v20220724-1531_125
+  Environment id                : 3733a884-8048-4e92-a5dc-22fee13c3d54
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : 198.147.191.81
+  Server port                   : 16196
+  Job execution timeout seconds : 600
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : 939
+  Host user Id                  : SJPKTT0
+  Use Repository Server         : false
+  Account Information           : 
+  Dataset High Level Qualifier  : 
+19:46:03.549 INFO      Engine           Setting variables from context and context data extensions
+19:46:03.550 INFO      Engine             id: environmentId      value: 3733a884-8048-4e92-a5dc-22fee13c3d54
+19:46:03.550 INFO      Engine             id: environmentType    value: BATCH
+19:46:03.550 INFO      Engine             id: userId             value: SJPKTT0
+19:46:03.550 INFO      Engine             id: accountingInfo     value: 
+19:46:03.550 INFO      Engine             id: datasetHQL         value: 
+19:46:03.550 INFO      Unittest         Interpreting Unittest of module: CW10COB testscenario path: CW10COB_Scenario.testscenario
+19:46:04.413 INFO      Unittest         Using JCL skeleton to submit JCL
+19:46:14.467 INFO      CWCC - Demo System Sending Job execution request to Host 
+19:46:20.342 INFO      CWCC - Demo System Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job SJPKTT0A(J0375428) ended with return code: 0004
+  Job name       : SJPKTT0A
+  Job id         : J0375428
+  Return code    : 0004
+  Abend code     : 
+  Abend reason   : 
+19:46:26.261 INFO      Unittest         Execution completed
+19:46:26.262 INFO      Engine           Test Scenario execution ended
