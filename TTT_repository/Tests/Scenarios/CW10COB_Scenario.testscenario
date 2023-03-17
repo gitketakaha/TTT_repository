@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.11.2.v20220724-1531_125?>
+<!--Topaz for Total Test 20.11.2.v20220724-1531_125 2023/03/17 19:36:19-->
+<testscenario:testscenario xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="Tests/Scenarios/CW10COB_Scenario.testscenario">
+  <testscenario:description></testscenario:description>
+  <testscenario:testcases>
+    <testscenario:testcase alias="" csect="CW10COB" encoding="939" entrypoint="CW10COB#C" id="Tests/Scenarios/CW10COB_Scenario.testscenario%23CW10COBCase1" target="CW10COB">
+      <testcase:description></testcase:description>
+      <testcase:ddio>SALESSUP.ISPW.DEMJ.UT1.SSD</testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1678997810000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CW10COB.interface#Tests/Interfaces/CW10COB.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CW10COB_PARMINFO.listructure#Tests/Structures/CW10COB_PARMINFO.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CW10COB_PARMINFO.listructure#PARMINFO" id="arg0.PARMINFO">
+          <properties:properties>
+            <properties:property name="value" type="string">0005F0F0F0F0F3</properties:property>
+            <properties:property name="expectedValue" type="string">0005F0F0F0F0F3</properties:property>
+            <properties:property name="address" type="string">37AC7568</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/CW10COB_RPTFILE_FILE_01.stub#Tests/Stubs/CW10COB_RPTFILE_FILE_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/CW10COB_EMPFILE_FILE_01.stub#Tests/Stubs/CW10COB_EMPFILE_FILE_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/CW10COB_DATETIME_01.stub#Tests/Stubs/CW10COB_DATETIME_01.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/CW10COB_RETURN-CODE.listructure#Tests/Structures/CW10COB_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CW10COB_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>CW10COB</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+  </testscenario:testcases>
+</testscenario:testscenario>
