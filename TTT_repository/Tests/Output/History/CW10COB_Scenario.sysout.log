@@ -7,7 +7,7 @@
  STTR036W License check finished with warnings ������������������������������������������������������������
  STTR043I Initializing simulation environment for: COBOL V4
  STTR043I Initializing simulation environment for: COBOL V5
- STTR011I totaltest zTargetRunner v170200 on 2023-03-17 06:46.15
+ STTR011I totaltest zTargetRunner v170200 on 2023-03-18 01:54.19
  STTR012I Options set to EXIT(),STUBS(ON),ARGTYPE(��������)
  STTR013I Processing test suite CW10COB_Scenario
  STTR014I Processing test scenario CW10COB_Scenario
